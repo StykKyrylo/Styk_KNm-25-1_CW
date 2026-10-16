@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Optimize Condition="'$(Configuration)'=='Release'">true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Ignore any full-source preview bundle to avoid duplicate symbols -->
+    <Compile Remove="*FullSource*.cs" />
+    <Compile Remove="../*FullSource*.cs" />
+    <None Include="*FullSource*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.OrTools" Version="9.11.4210" />
+  </ItemGroup>
+
+</Project>

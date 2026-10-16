@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0": {
+      "Google.OrTools": {
+        "type": "Direct",
+        "requested": "[9.11.4210, )",
+        "resolved": "9.11.4210",
+        "contentHash": "iZ39D66o0lD8H4Jujf+3TRj4jdMPiYB0m0Ae+Az4rtG9llxteB5Ie/rOC0zGDd85cHrPalS7PPwD3xEP1XgZhg==",
+        "dependencies": {
+          "Google.OrTools.runtime.linux-arm64": "9.11.4210",
+          "Google.OrTools.runtime.linux-x64": "9.11.4210",
+          "Google.OrTools.runtime.osx-arm64": "9.11.4210",
+          "Google.OrTools.runtime.osx-x64": "9.11.4210",
+          "Google.OrTools.runtime.win-x64": "9.11.4210",
+          "Google.Protobuf": "3.26.1"
+        }
+      },
+      "Google.OrTools.runtime.linux-arm64": {
+        "type": "Transitive",
+        "resolved": "9.11.4210",
+        "contentHash": "8+4Y0EFZg1p0mI+X9dioyuNZN80OHzOUW2ZOulkfbbQsPSduT0hZGpydTBn+t9ONOznWFWSmCqhv6JxD8Qs9zw=="
+      },
+      "Google.OrTools.runtime.linux-x64": {
+        "type": "Transitive",
+        "resolved": "9.11.4210",
+        "contentHash": "zfDb6GVs2OfEFoin1t0NfbPu52Sv5xFh4EEBwU+mD0OGplHIlDE2K0MK8PL8wMh4aUQz3zWcHbjFAwisX60wiw=="
+      },
+      "Google.OrTools.runtime.osx-arm64": {
+        "type": "Transitive",
+        "resolved": "9.11.4210",
+        "contentHash": "uIqvHvxYL3sVQWr5/N/8XMM6RMhOgWzr4z6GozJSPRbSrAE0IO5zB/inv3MPt2+U9JRQW9ogGp+5dkU0oLaU1Q=="
+      },
+      "Google.OrTools.runtime.osx-x64": {
+        "type": "Transitive",
+        "resolved": "9.11.4210",
+        "contentHash": "9+Ypa2QbqcC5UU7Z8Ruh1t2i5VKayQ5e2w/jqfxSxYVkVJOrhoOaMwKHPhGstWI+CljSQKCxc0I6lEiScL3+RA=="
+      },
+      "Google.OrTools.runtime.win-x64": {
+        "type": "Transitive",
+        "resolved": "9.11.4210",
+        "contentHash": "gs01iumgpIqgdHiWW3H4vCsgBQF1L0U+eAAi5FNO7gtHqqVZr/23vIzXsN6UKdLbb6qnctczB2qSuWRnBTL9XQ=="
+      },
+      "Google.Protobuf": {
+        "type": "Transitive",
+        "resolved": "3.26.1",
+        "contentHash": "CHZX8zXqhF/fdUtd+AYzew8T2HFkAoe5c7lbGxZY/qryAlQXckDvM5BfOJjXlMS7kyICqQTMszj4w1bX5uBJ/w=="
+      }
+    }
+  }
+}
